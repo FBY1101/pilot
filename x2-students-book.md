@@ -40,7 +40,7 @@ pip install jupyterlab
 
 `pip` 是 Python 自己的软件包管理工具，它负责安装、删除和管理 Python 浩若烟海的第三方代码库，我们以后会经常用到。上面第一行是更新 `pip` 自己，因为我们刚装好 Python，通常需要更新一下 `pip` 自己；第二行则是让 `pip` 安装 Jupyter Lab 以及所有依赖支持包。
 
-> 如果在运行上面第二个命令时报错说找不到、不认识 `pip` 命令，可尝试将 `pip` 换成 `pip3`，即运行 `pip3 install jupyterlab`。
+> 如果在运行上面第二个命令时报错说找不到、不认识 `pip` 命令，可先将第一行的 `python` 改成 `python3`，即 `python3 -m pip install -- upgrate pip`;然后可再尝试将第二行的 `pip` 换成 `pip3`，即运行 `pip3 install jupyterlab`。
 
 某些环境下运行 Jupyter Lab 需要 nodejs，所以建议也安装好。如果是 Winidows 系统，执行：
 
